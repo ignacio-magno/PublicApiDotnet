@@ -6,15 +6,8 @@ namespace PreviredTesting;
 
 public class ApiPreviredClient
 {
-    private string pathFileTest = ".files/planillaTest.pdf";
-    private string _tokenApi;
-
-    [SetUp]
-    public void Setup()
-    {
-        Env.Load();
-       _tokenApi =  Env.GetString("TokenApi");
-    }
+    private string _tokenApi => Credentials.Instance.TokenApi;
+    private string pathFileTest = Credentials.Instance.PathFileTest;
 
     [Test]
     public async Task TestCallEndpoint()
