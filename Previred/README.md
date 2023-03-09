@@ -23,8 +23,6 @@ Esta librería usa de una api para leer los archivos pdf al endpoint,
 https://api.ignaciolp.cl/contabilidad/previred/reader-planilla
 ```
 
-y este endpoint requiere un token, si quieres adquirir tu token puedes hacerlo en el siguiente link
+y este endpoint requiere un token, si quieres adquirir tu token puedes hacerlo en el siguiente link:
+[Obtener token](https://ignaciolp.cl/apis/token-access)
 
-```http
-https://ignaciolp.cl/apis/token-access
-```
