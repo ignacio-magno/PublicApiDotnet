@@ -8,5 +8,8 @@
     &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.UtilsTest&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.Main.MainEnter&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.MainTest.MainEnter&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.MovimientosTest.MovimientosMensuales&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.MovimientosTest.MovimientosMensuales_HasPermisoSinGoceDeSueldo&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.MovimientosTest.MovimientosMensuales_GetByType&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

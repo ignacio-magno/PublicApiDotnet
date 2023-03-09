@@ -7,6 +7,7 @@ internal class Credito18Septiembre : ITotals
     public int Leasing { get; set; }
     public int SegurosVida { get; set; }
     public int Otros { get; set; }
+    public MovPersonal? MovPersonal { get; set; }
 
     public int GetTotalPaidByEmployees()
     {
@@ -21,5 +22,4 @@ internal class Credito18Septiembre : ITotals
     public int GetBonos() => 0;
 
     public int GetImponible() => 0;
-
 }

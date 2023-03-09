@@ -11,6 +11,8 @@ internal class Septiembre18Rem : ITotals
     [JsonProperty("mont_asi_fam")] public int MontoAsiFamiliar { get; set; }
     [JsonProperty("cod_tram")] public string CodTramo { get; set; }
     [JsonProperty("pag_retr")] public int PagRetroactivo { get; set; }
+    public MovPersonal? MovPersonal { get; set; }
+    
 
     public int GetTotalPaidByEmployees()
     {

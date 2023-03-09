@@ -7,6 +7,7 @@ public class Employee
     public string Name { get; set; }
     public string LastName { get; set; }
     public string Rut { get; set; }
+    public Movements Movimientos { get; set; }
 
     public Payments Payments;
 
@@ -15,5 +16,6 @@ public class Employee
         Name = values.Name;
         Rut = values.Rut;
         Payments = new Payments(values);
+        Movimientos = new Movements(values.GetTotalsList().Select(j => j.MovPersonal));
     }
 }
