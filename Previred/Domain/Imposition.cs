@@ -4,8 +4,8 @@ namespace Previred.Domain;
 
 public class Imposition
 {
-    public string Month { get; set; }
-    public string Year { get; set; }
+    public int Month { get; set; }
+    public int Year { get; set; }
     public string RutBusiness { get; set; }
     public List<Employee> Employees { get; set; } = new List<Employee>();
 
@@ -15,5 +15,9 @@ public class Imposition
         {
             Employees.Add(new Employee(valuesCotizacionEmployee));
         }
+
+        Month = int.Parse(imposition.Month);
+        Year = imposition.Year;
+        RutBusiness = imposition.RutBusiness;
     }
 }
