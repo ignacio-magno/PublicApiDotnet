@@ -19,4 +19,7 @@ internal class Credito18Septiembre : ITotals
     }
 
     public int GetBonos() => 0;
+
+    public int GetImponible() => 0;
+
 }

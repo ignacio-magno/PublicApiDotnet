@@ -24,4 +24,6 @@ internal class IsapreRem: ITotals
     }
 
     public int GetBonos() => 0;
+    
+    public int GetImponible() => RentaImponible;
 }

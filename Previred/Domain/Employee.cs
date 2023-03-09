@@ -17,26 +17,3 @@ public class Employee
         Payments = new Payments(values);
     }
 }
-
-public class Payments
-{
-    public FonasaPayment Fonasa { get; set; }
-
-    internal Payments(ValuesCotizacionEmployee values)
-    {
-        IEnumerable<ITotals> fonasa = values.FonasaRem;
-
-        Fonasa = new FonasaPayment(fonasa?.Sum(x => x.GetTotalPaidByEmployees()) ?? 0);
-    }
-}
-
-// Fonasa payment never has a payment from the employer
-public class FonasaPayment
-{
-    public int ByEmployee { get; set; }
-
-    public FonasaPayment(int byEmployee)
-    {
-        ByEmployee = byEmployee;
-    }
-}

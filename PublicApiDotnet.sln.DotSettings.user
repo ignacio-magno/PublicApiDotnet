@@ -4,5 +4,7 @@
     &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.ApiPreviredClient.TestCallEndpoint&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.UtilsTest.Clients&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.UtilsTest.EmployeesPaymentFonasa&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.UtilsTest.EmployeesPaymentFonasaImponible&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E3F7F887-F585-460A-AADB-CAD617B4E3EC::net7.0::PreviredTesting.UtilsTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

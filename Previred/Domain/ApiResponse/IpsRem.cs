@@ -20,4 +20,5 @@ internal class IpsRem: ITotals
     }
 
     public int GetBonos() => 0;
+    public int GetImponible() => Remuneracion;
 }
